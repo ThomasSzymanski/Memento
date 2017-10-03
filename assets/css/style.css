@@ -1,12 +1,12 @@
 h1{
   color: #990000;
   border-width:2px;
- border-style:double;
- border-color:black;
+  border-style:double;
+  border-color:#990000;
 }
 body{
-    background-color: #d9d9d9 ;
-    background-image: url(https://julienalour.files.wordpress.com/2013/12/wallpaper-fonds-decran-arriere-plan-pour-site-web-2-0-full-hd.jpg);
+    background-color: #d9d9d9;
+    background-image: url(https://static1.squarespace.com/static/54e5c6e0e4b0973657d1f5f8/t/54eefac9e4b0198e517aa8a8/1424947932072/fond-ardoise.png?format=2500w);
 }
 li{
   color: #FFFFFF;
@@ -18,7 +18,9 @@ code{
     color: #990000;
 }
 #titlelinux{
-  background-color: #000000;
+  width:28%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #linux{
  border-width:2px;
@@ -26,5 +28,36 @@ code{
  border-color:black;
 }
 #titlegit{
-  background-color: #000000;
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#git{
+  border-width:2px;
+  border-style:double;
+  border-color:black;
+}
+#accueil{
+  margin-left: auto;
+  margin-right: auto;
+}
+#titlehtml{
+  width:8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titleCSS{
+  width:6%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titlephp{
+  width:7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titlejs{
+  width:12%;
+  margin-left: auto;
+  margin-right: auto;
 }

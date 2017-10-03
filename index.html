@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mémento</title>
-  </head>
-  <body>
-
-    <div id=titlelinux>
+   </head>
+   <body>
+     <a href="accueil.html">
+       <img src="http://michelpuyau.fr/fleche_retour.png" title="Retour à l'accueil" alt="Retour à la page d'accueil"/>
+     </a>
+    <div id="titlelinux">
       <h1 style="text-align:center;font-family:Arial">LIGNES DE COMMANDE LINUX</h1>
     </div>
-
-
-      <div id=linux>
+    <div id="linux">
         <ul>
             <li>Afficher le manuel d'une commande</li>
                 <pre><code>man "..."</code></pre>
@@ -48,21 +48,17 @@
                 <pre><code>dpkg -i "..."</code></pre>
             <li>Sortir du mode superUser</li>
                 <pre><code>exit</code></pre>
+            <li>Créer un dossier dans le dossier courant</li>
+                <pre><code>mkdir "..."</code></pre>
+            <li>Créer dossier + sous-dossier</li>
+                <pre><code>mkdir -p "..." / "..."</code></pre>
+            <li>Créer un fichier</li>
+                <pre><code>touch "..."</code></pre>
+            <li>Éditer un fichier texte</li>
+                <pre><code>nano "..."</code></pre>
+            <li>Déplacer un fichier</li>
+                <pre><code>mv "..."   "..." / "..."</code></pre>
         </ul>
-      </div>
-
-<div id=titlegit>
-  <h1 style="text-align:center;font-family:Arial">LIGNES DE COMMANDE GIT(HUB)</h1>
-</div>
-
-<div id=git>
-  <ul>
-
-  </ul>
-
-</div>
-
-
-
+    </div>
   </body>
 </html>
